@@ -1,0 +1,32 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore any .tfvars files, which can contain sensitive information
+*.tfvars
+
+# Ignore .terraform directories
+**/.terraform/*
+
+# Ignore .git directories
+.git
+
+# Ignore any .DS_Store files (macOS)
+.DS_Store
+
+# Ignore the .vscode directory (if using Visual Studio Code)
+.vscode
+
+# Ignore any log files or binaries
+*.log
+*.out
+*.zip
+*.exe
+*.bin
+
+# Ignore any temporary files or directories
+*.swp
+*.bak
+*.tmp
+*.backup
+/tmp/
